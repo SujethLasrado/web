@@ -1,0 +1,184 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title {
+  background-color: #ff4646;
+
+
+}
+
+.container-fluid{
+  padding: 3% 15% 8%;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  color: white ;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+p
+{
+  color: #8F8F8F;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.0rem;
+  /* font-weight: 100; */
+
+}
+
+.icon{
+
+  color:#ff4646;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff847c;
+}
+
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color:  #ff4646;
+  color: #fff;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color:  #ff4646 ;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+
+}
+
+
+
+
+
+}
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Pirata One', cursive;
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family:  'Montserrat', sans-serif;
+}
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* titleimage */
+.title-img{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+  }
+
+  #cta{
+    background-color:  #ff4646;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+
+  }
+  .cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  /* FooterSection */
+   #footer{
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  .social-icon{
+    margin: 20px 10px ;
+  }
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.navbar-dark .navbar-brand {
+  /* -webkit-text-stroke: 1px #f58634; */
+  text-shadow: 2px 2px 4px black;
+    color: #ffcc29;
+}
